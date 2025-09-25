@@ -24,6 +24,19 @@ export class AppMenu {
                 label: 'Home',
                 items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', routerLink: ['/'] }]
             },
+             {
+                label: 'User Management',
+                items: [
+                    { label: 'Add User', icon: 'pi pi-user-plus', routerLink: ['/member/user'] },
+                    { label: 'User List', icon: 'pi pi-user', routerLink: ['/member/userlist'] }
+                ]
+            },
+             {
+                label: 'Helpdesk Management',
+                items: [ 
+                    { label: 'Ticket List', icon: 'pi pi-ticket', routerLink: ['/ticket/ticketlist'] }
+                ]
+            },
             {
                 label: 'UI Components',
                 items: [
